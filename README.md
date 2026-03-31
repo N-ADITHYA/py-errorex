@@ -37,9 +37,9 @@ pip install .
 Just enable ErrorX at the top of your script:
 
 ```python
-import errorex
+import py_errorex
 
-errorex.enable()
+py_errorex.enable()
 
 data = None
 print(len(data))
@@ -113,9 +113,9 @@ When an error occurs:
 ## Example
 
 ```python
-import errorex
+import py_errorex
 
-errorex.enable()
+py_errorex.enable()
 
 arr = [1, 2, 3]
 print(arr[5])
